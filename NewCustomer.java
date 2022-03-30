@@ -1,5 +1,5 @@
 
-package Electricity;
+package electricitybillingsystem;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -50,7 +50,7 @@ public class NewCustomer extends JFrame implements ActionListener{
         t5.setBounds(240, 200, 200, 20);
         p.add(l5);
         p.add(t5);
-        l4 = new JLabel("State");
+        l4 = new JLabel("Division");
         l4.setBounds(100, 240, 100, 20);
         t4 = new JTextField();
         t4.setBounds(240, 240, 200, 20);
@@ -115,7 +115,7 @@ public class NewCustomer extends JFrame implements ActionListener{
             String email = t6.getText();
             String phone = t7.getText();
 
-            String q1 = "insert into customer values('"+name+"','"+meter+"','"+address+"','"+city+"','"+state+"','"+email+"','"+phone+"')";
+            String q1 = "insert into customer values('"+name+"','"+meter+"','"+address+"','"+city+"','"+dividion+"','"+email+"','"+phone+"')";
             String q2 = "insert into login values('"+meter+"', '', '', '', '')";
             try{
                 Conn c1 = new Conn();
