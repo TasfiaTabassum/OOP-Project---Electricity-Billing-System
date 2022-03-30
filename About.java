@@ -1,5 +1,5 @@
 
-package Electricity;
+package electricitybillingsystem;
 
 
 import java.awt.*;
