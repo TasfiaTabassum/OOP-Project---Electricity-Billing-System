@@ -1,8 +1,4 @@
- /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Electricity;
 
 import javax.swing.*;
@@ -23,10 +19,10 @@ public class Signup extends JFrame implements ActionListener{
         p1.setLayout( null);
         p1.setBackground(Color.WHITE);
         p1.setForeground(new Color(34, 139, 34));
-        p1.setBorder(new TitledBorder(new LineBorder(new Color(173, 216, 230), 2), "Create-Account", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(173, 216, 230)));
+        p1.setBorder(new TitledBorder(new LineBorder(new Color(173, 216, 230), 2), "Create Account", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(173, 216, 230)));
         add(p1);
         
-        JLabel l1 = new JLabel("Username");
+        JLabel l1 = new JLabel("UserName:");
         l1.setForeground(Color.DARK_GRAY);
         l1.setFont(new Font("Tahoma", Font.BOLD, 14));
         l1.setBounds(100, 50, 100, 20);
@@ -36,7 +32,7 @@ public class Signup extends JFrame implements ActionListener{
         t1.setBounds(260, 50, 150, 20);
         p1.add(t1);
         
-        JLabel l2 = new JLabel("Name");
+        JLabel l2 = new JLabel("Name:");
         l2.setForeground(Color.DARK_GRAY);
         l2.setFont(new Font("Tahoma", Font.BOLD, 14));
         l2.setBounds(100, 90, 100, 20);
@@ -47,7 +43,7 @@ public class Signup extends JFrame implements ActionListener{
         p1.add(t2);
         
         
-        JLabel l3 = new JLabel("Password");
+        JLabel l3 = new JLabel("Password:");
         l3.setForeground(Color.DARK_GRAY);
         l3.setFont(new Font("Tahoma", Font.BOLD, 14));
         l3.setBounds(100, 130, 100, 20);
@@ -58,14 +54,14 @@ public class Signup extends JFrame implements ActionListener{
         p1.add(t3);
         
         
-        JLabel l4 = new JLabel("Create Account As");
+        JLabel l4 = new JLabel("Create Account As:");
         l4.setForeground(Color.DARK_GRAY);
         l4.setFont(new Font("Tahoma", Font.BOLD, 14));
         l4.setBounds(100, 170, 140, 20);
         p1.add(l4);
         
         
-        JLabel l5 = new JLabel("Meter Number");
+        JLabel l5 = new JLabel("Meter Number:");
         l5.setForeground(Color.DARK_GRAY);
         l5.setFont(new Font("Tahoma", Font.BOLD, 14));
         l5.setBounds(100, 210, 100, 20);
