@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Electricity;
 
 
@@ -34,7 +30,7 @@ public class About extends JFrame implements ActionListener {
         Font f = new Font("RALEWAY", Font.BOLD, 180);
         setFont(f);
 
-        s = "                                    About Projects          \n  "
+        s = "                                    About Electricity Billing          \n  "
                 + "\nElectricity Billing System is a software-based application "
                 + "developed in Java programming language. The project aims at serving"
                 + "the department of electricity by computerizing the billing system. "
@@ -56,7 +52,7 @@ public class About extends JFrame implements ActionListener {
         Container contentPane = this.getContentPane();
         t1 = new TextArea();
 
-        JLabel l1 = new JLabel("About Project");
+        JLabel l1 = new JLabel("About Electricity Billing");
         add(l1);
         l1.setBounds(170, 10, 180, 80);
         l1.setForeground(Color.red);
