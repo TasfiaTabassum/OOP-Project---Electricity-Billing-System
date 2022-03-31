@@ -1,4 +1,4 @@
-package Electricity;
+package electricitybillingsystem;
 
 import java.awt.*;
 import java.awt.event.*;
