@@ -7,11 +7,11 @@ import javax.swing.*;
 import java.sql.*;
 import java.util.*;
 
-public class NewCustomer extends JFrame implements ActionListener{
+public class newCustomer extends JFrame implements ActionListener{
     JLabel l1,l2,l3,l4,l5,l6,l7,l8, l11;
     JTextField t1,t2,t3,t4,t5,t6,t7;
     JButton b1,b2;
-    NewCustomer(){
+    newCustomer(){
         setLocation(600,200);
         setSize(700,500);
         
@@ -135,6 +135,6 @@ public class NewCustomer extends JFrame implements ActionListener{
     
     
     public static void main(String[] args){
-        new NewCustomer().setVisible(true);
+        new newCustomer().setVisible(true);
     }
 }
