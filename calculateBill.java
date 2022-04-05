@@ -1,11 +1,11 @@
-package Electricity;
+package electricitybillingsystem;
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.sql.*;
 
-public class CalculateBill extends JFrame implements ActionListener{
+public class calculateBill extends JFrame implements ActionListener{
     JLabel l1,l2,l3,l4,l5;
     JTextField t1;
     Choice c1,c2;
@@ -160,7 +160,7 @@ public class CalculateBill extends JFrame implements ActionListener{
                     total_bill += Integer.parseInt(rs.getString("meter_rent"));
                     total_bill += Integer.parseInt(rs.getString("service_charge"));
                     total_bill += Integer.parseInt(rs.getString("service_tax"));
-                    total_bill += Integer.parseInt(rs.getString("swacch_bharat_cess"));
+                    //total_bill += Integer.parseInt(rs.getString("swacch_bharat_cess"));
                     total_bill += Integer.parseInt(rs.getString("fixed_tax"));
                 }
             }catch(Exception e){}
@@ -183,6 +183,6 @@ public class CalculateBill extends JFrame implements ActionListener{
     
        
     public static void main(String[] args){
-        new CalculateBill().setVisible(true);
+        new calculateBill().setVisible(true);
     }
 }
