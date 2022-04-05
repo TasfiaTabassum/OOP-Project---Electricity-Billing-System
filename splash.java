@@ -9,7 +9,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class Splash {
+public class splash {
     public static void main(String[] args){
         fframe f1 = new fframe();
         f1.setVisible(true);
@@ -45,7 +45,7 @@ class fframe extends JFrame implements Runnable{
             Thread.sleep(7000);
             this.setVisible(false);
             
-            Login l = new Login();
+            login l = new login();
             l.setVisible(true);
         }catch(Exception e){
             e.printStackTrace();
